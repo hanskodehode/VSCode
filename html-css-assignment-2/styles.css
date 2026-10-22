@@ -25,7 +25,7 @@ body {
 .main-box {
 
     width: 60vw;
-    height: 70vh;
+    height: 60vh;
     background-color: aqua;
     display: flex;
     grid-row: 3;
@@ -36,17 +36,23 @@ body {
 .sedans {
     background-color: hsl(31, 77%, 52%);
     flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 
 .suvs {
     background-color: hsl(184, 100%, 22%);
     flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .luxury {
     background-color: hsl(179, 100%, 13%);
     flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 /* the heading inside the three boxes */
 .section-title {
@@ -57,18 +63,66 @@ body {
     margin-left: 50px;
     margin-top: 30px;
 }
-
+/* the icon inside the three boxes */
 .section-icon {
     display: block;
     margin: 60px auto 0 50px;
 }
-
+/* the paragraph inside the three boxes */
 .section-text {
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 15px;
     color: hsla(0, 0%, 100%, 0.75);
     margin-left: 50px;
     margin-top: 20px;
     width: 60%;
+}
+/* the "learn more" button inside the three boxes */
+.learn-more-sedans {
+    color: hsl(31, 77%, 52%);
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsla(0, 0%, 100%, 0.75);
+    width: 160px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: auto;
+    margin-bottom: 40px;
+    padding: 70px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.learn-more-suvs {
+   color: hsl(184, 100%, 22%);
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsla(0, 0%, 100%, 0.75);
+    width: 160px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: auto;
+    margin-bottom: 40px;
+    padding: 70px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.learn-more-luxury {
+    color: hsl(179, 100%, 13%);
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsla(0, 0%, 100%, 0.75);
+    width: 160px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: auto;
+    margin-bottom: 40px;
+    padding: 70px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
