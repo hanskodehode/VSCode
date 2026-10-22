@@ -12,6 +12,16 @@ body {
     align-items: center;
 }
 
+.lexend-deca {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+.big-shoulders {
+    font-family: 'Big Shoulders', cursive;
+    font-weight: 700;
+}
+
 .main-box {
 
     width: 60vw;
@@ -37,4 +47,13 @@ body {
 .luxury {
     background-color: hsl(179, 100%, 13%);
     flex: 1;
+}
+
+.section-title {
+    font-family: 'Big Shoulders', cursive;
+    font-weight: 700;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
 }
